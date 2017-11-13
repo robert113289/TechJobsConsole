@@ -121,8 +121,8 @@ namespace TechJobsConsole
         private static void PrintJobs(List<Dictionary<string, string>> someJobs)
         {
 
-            Console.WriteLine("");
-            Console.WriteLine(String.Format("Your input yielded {0} results", someJobs.Count));
+
+            
 
                 foreach (var job in someJobs)
                 {
@@ -140,8 +140,9 @@ namespace TechJobsConsole
                     Console.WriteLine("");
                     Console.WriteLine("");
                 }
-            
-           
+            Console.WriteLine("");
+            Console.WriteLine(String.Format("Your input yielded {0} results", someJobs.Count));
+
         }
     }
 }
